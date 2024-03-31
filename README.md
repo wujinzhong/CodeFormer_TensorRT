@@ -50,3 +50,4 @@ Check the analysis details in the pdf document and we provide source code for ea
 >
 > 5. inference_codeformer_3_multi-thread-3.py
 >
+![image](https://github.com/wujinzhong/CodeFormer_TensorRT/assets/52945455/6a39645e-8da8-40e7-afc4-a027f9e29525)
