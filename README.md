@@ -25,6 +25,8 @@ Please check original system setup information from here, https://github.com/scz
 > CUDA_VISIBLE_DEVICES=0 /usr/local/bin/nsys profile /usr/bin/python inference_codeformer.py -w 0.5 --has_aligned --input_path ./inputs/cropped_faces
 >
 
+I use TensorRT 8.6.0, torch 1.12.1+cu113, GPU driver 535.113, CUDA 11.7.
+
 ## Performance optimizing
 
 My main optimization scheme is to converting torch models to TensorRT and multi-thread overlapping execution of CPU/GPU. Finally, we get a speed up of 2.5X.
